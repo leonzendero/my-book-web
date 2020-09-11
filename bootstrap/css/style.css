@@ -1,0 +1,74 @@
+@import "../fonts";
+body {
+    position: relative;
+}
+.scrollspy-example {
+    height: 360px;
+}
+.scroll-block {
+    position: relative;
+    height: 830px;
+    overflow: auto;
+}
+main {
+    min-height: calc(100vh - 288px);
+}
+.about {
+    margin: 40px 0 0;
+    text-align: center;
+}
+.study {
+    position: relative;
+    margin: 24px 0 24px;
+}
+.info-block {
+    text-align: center;
+}
+.info {
+    margin: 24px 0 0;
+}
+.task {
+    margin: 24px 0 10px;
+}
+.table {
+    padding: 24px 0 0;
+}
+.page {
+    margin-bottom: 32px;
+}
+.card-page {
+    margin: 10px;
+}
+.task-block {
+    max-width: 18rem;
+    margin: 0 24px;
+}
+.navbar-toggler {
+    font-size: small;
+}
+.footer-block {
+    background-color: #f8f9fa;
+}
+.footer-block a {
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+.footer-block a:hover {
+    color: rgba(0,0,0,.3);
+}
+.footer-text {
+    color: rgba(0,0,0,.5);
+}
+.info-img {
+    margin: 0 0 10px;
+}
+@media (max-width: 425px) {
+    .navbar-text {
+        justify-content: center;
+        font-size: 10px;
+    }
+    .navbar-title {
+        justify-content: center;
+        font-size: 15px;
+    }
+}
